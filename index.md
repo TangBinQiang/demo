@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /markdown-examples
+      link: /Demo/markdown-examples
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /Demo/api-examples
 
 features:
   - title: Feature A
