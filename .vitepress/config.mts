@@ -23,7 +23,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TangBinQiang/demo' }
+      { icon: 'github', link: 'https://github.com/TangBinQiang/demo'},
+      { icon: 'gitlab', link: 'https://github.com/TangBinQiang/demo'},
+      { icon: 'juejin', link: 'https://github.com/TangBinQiang/demo'},
+      { icon: 'gitee', link: 'https://github.com/TangBinQiang/demo'},
+      { icon: 'x', link: 'https://github.com/TangBinQiang/demo'}
     ]
   }
 })
