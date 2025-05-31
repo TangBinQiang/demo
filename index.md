@@ -20,7 +20,7 @@ hero:
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
+    link: /MDhub/Vitepress/Vitepress搭建个人静态网站
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C

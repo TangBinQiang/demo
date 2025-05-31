@@ -27,7 +27,7 @@ export default defineConfig({
       { icon: 'gitlab', link: 'https://github.com/TangBinQiang/demo'},
       { icon: 'juejin', link: 'https://github.com/TangBinQiang/demo'},
       { icon: 'gitee', link: 'https://github.com/TangBinQiang/demo'},
-      { icon: 'x', link: 'https://github.com/TangBinQiang/demo'}
+      { icon: '', link: 'https://github.com/TangBinQiang/demo'}
     ]
   }
 })
