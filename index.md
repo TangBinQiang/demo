@@ -6,6 +6,9 @@ hero:
   name: "My Awesome Project"
   text: "A VitePress Site TomCode" 
   tagline: My great project tagline
+  image:
+      src: /00.gif
+      alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
