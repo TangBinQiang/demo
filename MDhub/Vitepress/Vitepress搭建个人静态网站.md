@@ -190,5 +190,5 @@ jobs:
 
 ### 最后，就部署完毕了
 
-![](../Vitepress/img/1.png)
+![](../Vitepress/img/666.pdf)
 
