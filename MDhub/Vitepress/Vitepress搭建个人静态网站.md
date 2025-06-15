@@ -189,7 +189,7 @@ jobs:
 ![[Pasted image 20250531125551.png]]
 
 ### 最后，就部署完毕了
-<iframe src="../Vitepress/img/666.pdf" width="100%" height="600px"></iframe>
+
 
 ![](../Vitepress/img/1.png)
 
