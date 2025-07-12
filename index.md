@@ -21,6 +21,9 @@ features:
   - title: java
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /MDhub/Java/java基础
+  - title: C语言
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /MDhub/C/C语言基础
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /MDhub/Vitepress/Vitepress搭建个人静态网站
