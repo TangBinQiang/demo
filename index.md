@@ -18,6 +18,9 @@ hero:
       link: /MDhub/Demo/api-examples
 
 features:
+  - title: java
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /MDhub/java/java基础
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /MDhub/Vitepress/Vitepress搭建个人静态网站
