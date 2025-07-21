@@ -1,0 +1,22 @@
+/* 按钮颜色动态跟随彩虹变量 */
+button,
+a.VPButton,
+.VPHome .VPButton {
+  background-color: var(--rainbow-prev) !important;
+  border-color: var(--rainbow-prev) !important;
+  /* color: white !important; */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* 鼠标悬停时稍微调亮 */
+button:hover,
+a.VPButton:hover {
+  filter: brightness(1.1);
+}
+
+/* 卡片边框颜色动态变色 */
+.VPFeature {
+  border: 2px solid var(--rainbow-prev);
+  transition: border-color 0.3s ease;
+  border-radius: 12px;
+}

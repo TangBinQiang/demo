@@ -2,11 +2,20 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  //markdown配置
+  markdown: {
+    //行号显示
+    lineNumbers: true, //false关闭
+  },
   base: '/demo/', //这里一定要记得写，不然样式会出问题，然后写上自己的仓库名
   title: "TomeCodehub",
   description: "A VitePress Site",
   themeConfig: {
-    logo : '/logo.png',
+    logo: '/logo2.png',
+    //本地搜索
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
@@ -26,11 +35,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TangBinQiang/demo'},
-      { icon: 'gitlab', link: 'https://github.com/TangBinQiang/demo'},
-      { icon: 'juejin', link: 'https://github.com/TangBinQiang/demo'},
-      { icon: 'gitee', link: 'https://github.com/TangBinQiang/demo'},
-      { icon: '', link: 'https://github.com/TangBinQiang/demo'}
+      { icon: 'github', link: 'https://github.com/TangBinQiang/demo' },
+      { icon: 'gitlab', link: 'https://github.com/TangBinQiang/demo' },
+      { icon: 'juejin', link: 'https://github.com/TangBinQiang/demo' },
+      { icon: 'gitee', link: 'https://github.com/TangBinQiang/demo' },
+      { icon: '', link: 'https://github.com/TangBinQiang/demo' }
     ]
   }
 })

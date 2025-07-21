@@ -2,12 +2,13 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+
 hero:
   name: "My Awesome Project"
   text: "A VitePress Site TomCode" 
   tagline: My great project tagline
   image:
-      src: /logo.png
+      src: /logo2.png
       alt: VitePress
   actions:
     - theme: brand
