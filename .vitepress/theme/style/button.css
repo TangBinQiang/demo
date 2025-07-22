@@ -1,22 +1,51 @@
-/* 按钮颜色动态跟随彩虹变量 */
-button,
-a.VPButton,
-.VPHome .VPButton {
-  background-color: var(--rainbow-prev) !important;
-  border-color: var(--rainbow-prev) !important;
-  /* color: white !important; */
-  transition: background-color 0.3s ease, border-color 0.3s ease;
+/* 按钮渐变色 + 动画 */
+:root {
+  --rainbow-prev: #009ff7;
+  --rainbow-next: #c76dd1;
+  animation: rainbow 8s linear infinite;
 }
 
-/* 鼠标悬停时稍微调亮 */
-button:hover,
-a.VPButton:hover {
+/* 主页按钮：背景渐变 */
+.VPButton.brand {
+  background-image: linear-gradient(135deg, var(--rainbow-prev), var(--rainbow-next));
+  border: none;
+  color: white !important;
+  transition: background-position 0.5s ease;
+  background-size: 200% 200%;
+  animation: rainbowBtn 8s linear infinite;
+}
+
+/* 鼠标悬停时可加深效果 */
+.VPButton.brand:hover {
   filter: brightness(1.1);
+  box-shadow: 0 0 10px var(--rainbow-next);
 }
 
-/* 卡片边框颜色动态变色 */
-.VPFeature {
-  border: 2px solid var(--rainbow-prev);
-  transition: border-color 0.3s ease;
-  border-radius: 12px;
+/* 边框也设置为渐变色 */
+/* .VPButton.brand::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--rainbow-prev), var(--rainbow-next));
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+} */
+
+/* 彩虹按钮动画 */
+@keyframes rainbowBtn {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

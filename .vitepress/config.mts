@@ -39,7 +39,7 @@ export default defineConfig({
       { icon: 'gitlab', link: 'https://github.com/TangBinQiang/demo' },
       { icon: 'juejin', link: 'https://github.com/TangBinQiang/demo' },
       { icon: 'gitee', link: 'https://github.com/TangBinQiang/demo' },
-      { icon: '', link: 'https://github.com/TangBinQiang/demo' }
+      // { icon: '', link: 'https://github.com/TangBinQiang/demo' } 这串代码技术导致调试出现https://api.iconify.design/simple-icons/.svg的罪魁祸首
     ]
   }
 })
