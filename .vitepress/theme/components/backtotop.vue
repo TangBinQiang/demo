@@ -127,7 +127,7 @@ onBeforeUnmount(() => {
 
 .progress-ring-circle {
   fill: none;
-  stroke: #3eaf7c;
+  stroke: #af3ea6;
   stroke-width: 3;
   stroke-dasharray: 264; /* 2 * π * 42 */
   stroke-linecap: round;
