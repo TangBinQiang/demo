@@ -8,7 +8,7 @@ hero:
   text: "A VitePress Site TomCode" 
   tagline: My great project tagline
   image:
-      src: /logo2.png
+      src: /logo4.gif
       alt: VitePress
   actions:
     - theme: brand

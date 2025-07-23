@@ -12,7 +12,7 @@ export default defineConfig({
   title: "TomeCodehub",
   description: "A VitePress Site",
   themeConfig: {
-    logo: '/logo2.png',
+    logo: '/logo4.gif',
     //本地搜索s
     search: {
       provider: 'local'
