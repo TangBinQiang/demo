@@ -1,0 +1,18 @@
+/* 🌈 hover 时显示彩虹边框 */
+.VPFeatures .VPFeature:hover {
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: 
+    linear-gradient(var(--vp-c-bg), var(--vp-c-bg)),
+    linear-gradient(120deg, var(--rainbow-prev), var(--rainbow-next));
+  border: 1.5px solid transparent;
+}
+
+.VPFeatures .VPFeature:link.VPFeature:hover{
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: 
+    linear-gradient(var(--vp-c-bg), var(--vp-c-bg)),
+    linear-gradient(120deg, var(--rainbow-prev), var(--rainbow-next));
+  border: 1.5px solid transparent;
+}

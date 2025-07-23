@@ -1,3 +1,4 @@
+/* 🌈 全局彩虹动画变量定义 */
 /* 彩虹动画 */
 @keyframes rainbow {
     0% {
@@ -406,41 +407,50 @@
     }
 }
 
-/* 彩虹色卡初始色 */
+/* 🌍 全局变量启用动画 */
 :root {
     --rainbow-prev: #009ff7;
     --rainbow-next: #c76dd1;
-    animation: rainbow 8s linear infinite;
+    animation: rainbow 12s linear infinite;
 }
 
+/* 🌟 hero 标题渐变 */
 :root {
-    /* hero标题渐变色 */
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--rainbow-prev) 30%, var(--rainbow-next));
-
-    /*hero logo背景渐变色 */
-    --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--rainbow-prev) 30%, var(--rainbow-next));
+    --vp-home-hero-name-background: linear-gradient(120deg, var(--rainbow-prev), var(--rainbow-next));
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--rainbow-prev), var(--rainbow-next));
     --vp-home-hero-image-filter: blur(80px);
-
 }
 
-/* 主页按钮：背景渐变 */
+/* 🚀 brand 按钮颜色渐变边框 */
 .VPButton.brand {
-  background-image: linear-gradient(135deg, var(--rainbow-prev), var(--rainbow-next));
-  border: none;
-  color: white !important;
-  transition: background-position 0.5s ease;
-  background-size: 200% 200%;
-  animation: rainbowBtn 8s linear infinite;
+    background: linear-gradient(90deg, var(--rainbow-prev), var(--rainbow-next));
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
 }
 
-
-/* 鼠标悬停时可加深效果 */
 .VPButton.brand:hover {
-  filter: brightness(1.1);
-  box-shadow: 0 0 10px var(--rainbow-next);
+    filter: brightness(1.1);
 }
 
+/* 🧩 features 卡片边框渐变 */
+/* 🧩 features 卡片默认无边框 */
+.VPFeatures .VPFeature {
+  border: 2px solid transparent;
+  border-radius: 12px;
+  transition: all 0.5s ease-in-out;
+  background: var(--vp-c-bg);
+  position: relative;
+  z-index: 1;
+}
 
-
-
+/* 🌈 hover 时显示彩虹边框 */
+.VPFeatures .VPFeature:hover {
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: 
+    linear-gradient(var(--vp-c-bg), var(--vp-c-bg)),
+    linear-gradient(120deg, var(--rainbow-prev), var(--rainbow-next));
+  border: 2px solid transparent;
+}

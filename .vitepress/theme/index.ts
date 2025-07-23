@@ -9,7 +9,7 @@ import { h } from 'vue' // h函数
 import backtotop from "./components/backtotop.vue";
 // 组件(公告)
 import notice from "./components/notice.vue";
-// 组件(赞助商)
+
 
 export default {
   extends: DefaultTheme,
