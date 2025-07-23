@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   //markdown配置
   markdown: {
     //行号显示
@@ -12,10 +13,12 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     logo: '/logo2.png',
-    //本地搜索
+    //本地搜索s
     search: {
       provider: 'local'
     },
+    //返回顶部文字修改
+    returnToTopLabel: '返回顶部',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
@@ -39,6 +42,8 @@ export default defineConfig({
       { icon: 'gitlab', link: 'https://github.com/TangBinQiang/demo' },
       { icon: 'juejin', link: 'https://github.com/TangBinQiang/demo' },
       { icon: 'gitee', link: 'https://github.com/TangBinQiang/demo' },
+      { icon: 'discord', link: 'https://github.com/TangBinQiang/demo'},
+      { icon: 'x', link: 'https://github.com/TangBinQiang/demo'},
       // { icon: '', link: 'https://github.com/TangBinQiang/demo' } 这串代码技术导致调试出现https://api.iconify.design/simple-icons/.svg的罪魁祸首
     ]
   }
