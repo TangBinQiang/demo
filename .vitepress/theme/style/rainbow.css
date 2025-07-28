@@ -424,22 +424,7 @@
 
 }
 
-/* 主页按钮：背景渐变 */
-.VPButton.brand {
-  background-image: linear-gradient(135deg, var(--rainbow-prev), var(--rainbow-next));
-  border: none;
-  color: white !important;
-  transition: background-position 0.5s ease;
-  background-size: 200% 200%;
-  animation: rainbowBtn 8s linear infinite;
-}
 
-
-/* 鼠标悬停时可加深效果 */
-.VPButton.brand:hover {
-  filter: brightness(1.1);
-  box-shadow: 0 0 10px var(--rainbow-next);
-}
 
 
 

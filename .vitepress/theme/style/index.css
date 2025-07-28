@@ -15,7 +15,7 @@
 /* .vitepress/theme/style/index.css */
 @import './vp-code-group.css';
 /* .vitepress/theme/style/index.css */
-/* @import './button.css'; */
+@import './button.css';
 /* .vitepress/theme/style/index.css */
 @import './features.css';
 

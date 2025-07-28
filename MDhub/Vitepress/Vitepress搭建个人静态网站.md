@@ -186,8 +186,7 @@ jobs:
 
 ### 点击确定，耐心等待三分钟左右，就可以了，接下来查看我们的域名
 
-![[Pasted image 20250531125551.png]]
-
+![](../Vitepress/img/Pasted%20image%2020250531125551.png)
 ### 最后，就部署完毕了
 
 ![](../Vitepress/img/1.png)
