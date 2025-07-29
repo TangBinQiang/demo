@@ -25,7 +25,7 @@ features:
   - title: C语言
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /MDhub/C/C语言基础
-  - title: Vitepress
+  - title: Vitepress搭建
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /MDhub/Vitepress/Vitepress搭建个人静态网站
   - title: Feature B
