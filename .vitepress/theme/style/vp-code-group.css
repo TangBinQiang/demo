@@ -63,28 +63,6 @@
   display: none;
 }
 
-.vp-code-group .tabs [data-tab="pnpm"]::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 6px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23000'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 4v16m8-8H4'/%3E%3C/svg%3E");
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-}
 
-.vp-code-group .tabs [data-tab="yarn"]::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 6px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23000'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 4v16m8-8H4'/%3E%3C/svg%3E");
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-}
 
 
